@@ -823,6 +823,7 @@ define_and_use_all_c_callbacks!(
     (s, v, v) -> i;
     (s, s, i, i) -> u;
     (s, s) -> i;
+    (s, s, i) -> i;
     (s, v) -> i;
     (v, v) -> i;
     (v) -> i;
